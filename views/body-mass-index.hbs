@@ -1,0 +1,17 @@
+<!--Template HTML for BMI form, serves as load page-->
+
+<div class="bg-info-subtle rounded">
+<h1>Body Mass Index Calculator</h1>
+
+<h2 class="mb-4">Please enter your height and weight below.</h2>
+
+<form action="/return-BMI" method="POST">
+    <label class="form-label" for="weight">Enter your weight:</label>
+    <input class="form-control" id="weight" name="weight">
+    <br>
+    <label class="form-label" for="height">Enter your height:</label>
+    <input class="form-control" id="height" name="height">
+    <br>
+    <button id="calculate">Calculate BMI</button>
+</form>
+</div>
